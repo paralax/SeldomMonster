@@ -1,7 +1,7 @@
 # SeldomMaster 
 #### cybersecurity MCP tools
 
-a bunch of ones i use personally with Gemini CLI 
+a bunch of ones i use personally with Gemini CLI but should work with any LLM that supports MCP. 
 
 ## what's in the box?
 
@@ -23,7 +23,7 @@ hits a bunch of free or community APIs for cyber threat intelligence use cases
 
 ### localhacker 
 
-ues a bunch of OSX tools to discover and hack devices on the local network
+ues a bunch of OSX tools to discover and hack devices on the local network, "nmap" is the only third-party dependency. 
 
 # TODO
 
