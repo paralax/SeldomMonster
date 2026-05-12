@@ -1,0 +1,77 @@
+{
+  "mcpServers": {
+    "Simple OTX": {
+      "command": "/Library/Frameworks/Python.framework/Versions/3.13/bin/uv",
+      "args": [
+        "--directory",
+        "/Users/josenazario/code/mcp-cti/otx_simple_mcp",
+        "run",
+        "python",
+        "server.py"
+      ],
+      "env": {
+        "OTX_API_KEY": "e7078cdf0c93056c29127fbab21631c910060f96eee3157f75a926a8b5dc5c2c",
+        "SSL_CERT_FILE": "/private/etc/ssl/cert.pem"
+      }
+    },
+    "Ransomware Live": {
+      "command": "/Library/Frameworks/Python.framework/Versions/3.13/bin/uv",
+      "args": [
+        "--directory",
+        "/Users/josenazario/code/mcp-cti/ransomware-live-mcp",
+        "run",
+        "python",
+        "server.py"
+      ],
+      "env": {
+        "SSL_CERT_FILE": "/private/etc/ssl/cert.pem"
+      }
+    },
+    "Reddit Netsec": {
+      "command": "/Library/Frameworks/Python.framework/Versions/3.13/bin/uv",
+      "args": [
+        "--directory",
+        "/Users/josenazario/code/mcp-cti/reddit_netsec_mcp",
+        "run",
+        "python",
+        "server.py"
+      ],
+      "env": {
+        "SSL_CERT_FILE": "/private/etc/ssl/cert.pem"
+      }
+    },
+    "GreyNoise": {
+      "command": "/Library/Frameworks/Python.framework/Versions/3.13/bin/uv",
+      "args": [
+        "--directory",
+        "/Users/josenazario/code/mcp-cti/greynoise_mcp",
+        "run",
+        "python",
+        "server.py"
+      ],
+      "env": {
+        "GREYNOISE_API_KEY": "K16djRJWGjF4YZSLF9wbYffSDMFPWJ05OJ1j1wVy5pRiR2A0QWSVqxa08xK1bw86",
+        "SSL_CERT_FILE": "/private/etc/ssl/cert.pem"
+      }
+    },
+    "OpenCTI": {
+      "commandXX": "/Library/Frameworks/Python.framework/Versions/3.13/bin/uv",
+      "command": "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+      "args": [
+        "/Users/josenazario/code/mcp-cti/opencti_mcp/server.py"
+      ],
+      "argsXXX": [
+        "--directory",
+        "/Users/josenazario/code/mcp-cti/opencti_mcp",
+        "run",
+        "python",
+        "server.py"
+      ],
+      "env": {
+        "OPENCTI_KEY": "...",
+        "OPENCTI_URL": "https://opencti.yoursite.com"
+      }
+    }
+  },
+  "selectedAuthType": "oauth-personal"
+}
